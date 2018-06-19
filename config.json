@@ -1,0 +1,24 @@
+{
+    "envs": [
+         {
+            "name": "devops",
+            "config_repo_url": "git@github.com:dawa-grape/fortress_devops.git",
+            "config_repo_branch": "master",
+            "auth": {
+                "github_orgs": [
+                    {"name": "grapeup"}
+                ]
+            }
+        },
+        {
+            "name": "prod",
+            "config_repo_url": "git@github.com:dawa-grape/fortress_devops.git",
+            "config_repo_branch": "master",
+            "auth": {
+                "github_orgs": [
+                    {"name": "grapeup"}
+                ]
+            }
+        }
+    ]
+}
